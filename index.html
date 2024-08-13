@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+               <div class="nav-option" style="opacity: 1;">
+                <i class="fa-solid fa-house"></i>
+                <a href="#">Home</a>
+               </div>
+               <div class="nav-option">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="#">Search</a>
+               </div>
+            </div>
+            <div class="library">
+                <div class="option">
+                    <div class="lib-option nav-option">
+                        <img src="library_icon.png" alt="library icon">
+                        <a href="#">Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="artist-btn">
+                    <a href="#">Artist</a>
+                </div>
+                <div class="nav-recent-search">
+                    <div class="recent-search nav-option">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="recent-icon">
+                        <a href="#">Recent</a>
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+                <div class="artist">
+                    <a href="#">
+                        <div class="artist-list">
+                            <div class="artist-img img-1"></div>
+                            <div class="artist-info">
+                                <li>Arjit Singh</li>
+                                <li style="opacity: 0.5;">Artist</li>   
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="artist-list">
+                            <div class="artist-img img-2"></div>
+                            <div class="artist-info">
+                                <li>Rahat Fateh Ali Khan</li>
+                                <li style="opacity: 0.5;">Artist</li>   
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="artist-list">
+                            <div class="artist-img img-3"></div>
+                            <div class="artist-info">
+                                <li>Jubin Notiyal</li>
+                                <li style="opacity: 0.5;">Artist</li>   
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="artist-list">
+                            <div class="artist-img img-4"></div>
+                            <div class="artist-info">
+                                <li>Shreya Ghosal</li>
+                                <li style="opacity: 0.5;">Artist</li>   
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticy-head-nav">
+                <div class="sticy-nav">
+                    <div class="sticy-nav-icons">
+                        <img src="backward_icon.png">
+                        <img src="forward_icon.png" class="hide">
+                    </div>
+                    <div class="sticy-nav-options">
+                        <button class="badge hide">Explore Premium</button>
+                        <button class="badge sticy-dark"><i class="fa-regular fa-circle-down"></i>Install App</button>
+                        <button class="sticy-nav-ntf sticy-dark"><i class="fa-solid fa-bell"></i></button>
+                        <button class="sticy-nav-ntf sticy-dark"><i class="fa-regular fa-user"></i></button>
+                    </div>
+                </div>
+                <div class="sticy-nav-select">
+                    <button class="sticy-all badge">All</button>
+                    <button class="sticy-music badge music-light-dark">Music</button>
+                    <button class="sticy-podcast badge podcast-light-dark">Podcast</button>
+                </div>
+            </div>
+            <div class="card-head-see">
+                <h2>Little-know stories form history</h2>
+            </div>
+            <div class="cards">
+                <div class="card-container">
+                    <div class="card">
+                        <img src="the-1971-war.jpeg" class="card-img">
+                        <p class="card-title">The 1971 Bangladesh War...</p>
+                        <p class="card-info">8 Jan - 93 min</p>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="mexicen-ind-1.jpeg" class="card-img">
+                        <p class="card-title">Mexicen Independance</p>
+                        <p class="card-info">Dec 2021 - 21 min</p>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="warfare.jpeg" class="card-img">
+                        <p class="card-title">First Indochina War:Dien Bien Phu</p>
+                        <p class="card-info">Oct 2022 - 49 min</p>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="gone-meidval.jpeg" class="card-img">
+                        <p class="card-title">Origins Of Scottish Independance</p>
+                        <p class="card-info">May 2023 - 46 min</p>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="ints-continent.jpeg" class="card-img">
+                        <p class="card-title">Malagasy Uprising</p>
+                        <p class="card-info">Nov 2020 - 25 min</p>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="texas-history.png" class="card-img">
+                        <p class="card-title">Texas Revolution (1836)</p>
+                        <p class="card-info">Aug 2023 - 11 min</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-head-see">
+                <h2>Best episode of the week</h2>
+            </div>
+            <div class="cards">
+                <div class="card-container">
+                    <div class="card">
+                        <img src="anithing-goes.jpeg" class="card-img">
+                        <p class="card-title">a talk with kendall jenner...</p>
+                        <p class="card-info">1 Aug - 50 min</p>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="budget-2024.jpeg" class="card-img">
+                        <p class="card-title">How Will Budget 2024 Affect Your...</p>
+                        <p class="card-info">2 Aug - 15 min</p>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="venki.jpeg" class="card-img">
+                        <p class="card-title">Science Breakthoughts Wi...</p>
+                        <p class="card-info">29 Jul - 72 min</p>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="hockey-3.jpeg" class="card-img">
+                        <p class="card-title">a talk with kendall jenner...</p>
+                        <p class="card-info">3 Aug - 22 min</p>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="angry-man.jpeg" class="card-img">
+                        <p class="card-title">Origins Of The Angry Young Man...</p>
+                        <p class="card-info">5 Jan - 9 min</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-head-see">
+                <h2>Popular Albums</h2>
+                <p class="see-all">See All</p>
+            </div>
+            <div class="cards">
+                <div class="card-container">
+                    <div class="card">
+                        <img src="sajni-re.jpeg" class="card-img">
+                        <p class="card-title">Sajni(From "Laapataa Ladies")</p>
+                        <p class="card-info">Ram Sampath,Arjit Singh,Prashant Panday</p>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="aashique-2.jpeg" class="card-img">
+                        <p class="card-title">Aashiqui 2</p>
+                        <p class="card-info">Mithoon,Ankit Tiwari,Jeet Gannguli</p>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="animal.jpeg" class="card-img">
+                        <p class="card-title">ANIMAL</p>
+                        <p class="card-info">Manan Bhardwaj,Vishal Mishra,Jaani</p>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="rockstar.jpeg" class="card-img">
+                        <p class="card-title">Rockstar</p>
+                        <p class="card-info">A.R.Rahman,Irshad Kamil</p>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="still-rollin.jpeg" class="card-img">
+                        <p class="card-title">Still Rollin</p>
+                        <p class="card-info">Shubh</p>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="jawani-diwani.jpeg" class="card-img">
+                        <p class="card-title">Yeh Jawani Hai Deewani</p>
+                        <p class="card-info">Pritam</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-head-see">
+                <h2>Popular Artists</h2>
+                <p class="see-all">See All</p>
+            </div>
+            <div class="cards">
+                <div class="card-container">
+                    <div class="card">
+                        <div class="card-curve-img">
+                            <img src="arjit-singh-2.jpeg" class="card-img card-curve-img">
+                        </div>
+                        <p class="card-title">Arjit Singh</p>
+                        <p class="card-info">Artist</p>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="card-curve-img">
+                            <img src="karan.jpeg" class="card-img card-curve-img">
+                        </div>
+                        <p class="card-title">Karan Aujla</p>
+                        <p class="card-info">Artist</p>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="card-curve-img">
+                            <img src="darsan-1.jpeg" class="card-img card-curve-img">
+                        </div>
+                        <p class="card-title">Darshan Raval</p>
+                        <p class="card-info">Artist</p>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="card-curve-img">
+                            <img src="a-r-rahman.jpeg" class="card-img card-curve-img">
+                        </div>
+                        <p class="card-title">A. R. Rahman</p>
+                        <p class="card-info">Artist</p>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="card-curve-img">
+                            <img src="atif-aslam-1.jpeg" class="card-img card-curve-img">
+                        </div>
+                        <p class="card-title">Atif Aslam</p>
+                        <p class="card-info">Artist</p>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="card-curve-img">
+                            <img src="vishal-mishra.jpeg" class="card-img card-curve-img">
+                        </div>
+                        <p class="card-title">Vishal Mishra</p>
+                        <p class="card-info">Artist</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+    <div class="music-player">
+        <div class="albums">  
+            <div class="album-img">
+                <img src="album-img.jpeg" alt="">
+            </div>
+            <div class="album-info">
+                <p>Tauba Tauba (From "Bad News")</p>  
+                <p class="album-artist">Karan Aujla</p>       
+            </div> 
+            <i class="fa-regular fa-square-plus"></i>
+        </div>
+        <div class="player">
+            <div class="player-control">
+                <img src="player_icon1.png" alt="" class="play-control-icons">
+                <img src="player_icon2.png" alt="" class="play-control-icons">
+                <img src="player_icon3.png" alt="" class="play-control-icons" style="height: 2rem;width: 2.1rem; opacity: 1;">
+                <img src="player_icon4.png" alt="" class="play-control-icons" >
+                <img src="player_icon5.png" alt="" class="play-control-icons" >
+            </div>
+            <div class="playback-bar">
+                <span class="curr-time">00:00</span>
+                <input type="range" min="0" max="100" class="progress-bar" step="1">
+                <span class="tot-time">3:30</span>
+            </div>
+        </div>
+        <div class="control sticy-nav-icons">
+            <i class="fa-regular fa-file-video"></i>
+            <i class="fa-solid fa-microphone"></i>            
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-mobile-screen"></i>
+            <i class="fa-solid fa-volume-high"></i>
+            <input type="range" min="0" max="100" step="1" class="progress-bar control-pro-bar">
+            <i class="fa-solid fa-laptop-file"></i>
+        </div>
+    </div>
+</body>
+</html>
